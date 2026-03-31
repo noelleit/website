@@ -1,4 +1,4 @@
-baseURL = 'https://DEIN_GITHUB_NUTZERNAME.github.io/'
+baseURL = 'https://noelleit.github.io/website/'
 languageCode = 'de-de'
 title = 'Noelle IT | Automatisierung & Billbee Setup'
 theme = 'PaperMod'
