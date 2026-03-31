@@ -1,39 +1,45 @@
-/* --- GLOBALE FARBEN --- */
+/* --- GLOBALE FARBEN & VERLAUF --- */
 :root {
-    --theme: #dbeafe;           /* Dein gewünschtes Hellblau */
+    /* Ein sanfter Verlauf von Hellblau zu einem etwas kräftigeren Blau */
+    --gradient-start: #dbeafe; 
+    --gradient-end: #bfdbfe;
+    
     --primary: #000000;         /* Tiefschwarz für Titel */
     --content: #000000;         /* Tiefschwarz für Texte */
-    --secondary: #1e4ed8;       /* Dunkleres Blau für Links */
-    --entry: #ffffff;           /* Karten-Hintergrund (z.B. im Impressum) */
+    --entry: #ffffff;           /* Karten-Hintergrund bleibt Weiß für Lesbarkeit */
 }
 
-/* Zwingt den Hintergrund auf JEDE Seite (auch Startseite) */
+/* Den Verlauf auf die gesamte Seite zwingen */
 html, body, .main, .profile_inner {
-    background-color: var(--theme) !important;
+    background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%) !important;
+    background-attachment: fixed !important; /* Der Verlauf bleibt beim Scrollen fest stehen */
+    min-height: 100vh;
 }
 
-/* --- STARTSEITE (Profile Mode) OPTIMIERUNG --- */
-
-/* Titel und Untertitel auf der Startseite schwarz machen */
+/* --- STARTSEITE (Profile Mode) --- */
 .profile_inner h1, 
 .profile_inner .profile_description,
 .profile_inner .profile_social_icons {
     color: #000000 !important;
 }
 
-/* Die Buttons auf der Startseite schick machen */
+/* Die Buttons auf der Startseite */
 .profile_inner .buttons .button {
-    background: #2563eb !important; /* Kräftiges Blau für den Button */
-    color: #ffffff !important;      /* Weißer Text auf dem Button für Lesbarkeit */
+    background: #1d4ed8 !important; /* Kräftigeres Blau für besseren Kontrast */
+    color: #ffffff !important;
     border-radius: 8px;
-    padding: 10px 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Kleiner Schatten für "Tiefe" */
 }
 
-.profile_inner .buttons .button:hover {
-    background: #1d4ed8 !important; /* Etwas dunkler beim Drüberfahren */
-}
-
-/* --- ALLGEMEINE TEXTE --- */
+/* Texte im Impressum & Leistungen */
 p, li, h2, h3 {
     color: #000000 !important;
+}
+
+/* Karten-Look für Leistungs-Pakete (macht es edler auf dem Verlauf) */
+.post-content, .post-entry {
+    background: rgba(255, 255, 255, 0.5); /* Leicht transparentes Weiß */
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px); /* Moderner "Glasseffekt" */
 }
