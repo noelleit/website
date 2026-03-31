@@ -1,0 +1,29 @@
+:root {
+    /* Helle Ansicht (Light Mode) */
+    --theme: #f5f7fa;           /* Ganz leichtes Blaugrau als Hintergrund */
+    --entry: #ffffff;           /* Weiß für die Karten/Inhalte */
+    --primary: #1d4ed8;         /* Kräftiges Blau für Text & Titel */
+    --secondary: #3b82f6;       /* Helleres Blau für Links */
+    --tertiary: #dbeafe;        /* Sehr helles Blau für dezente Hintergründe */
+    --content: #1e293b;         /* Dunkles Blaugrau für den Haupttext */
+}
+
+.dark {
+    /* Dunkle Ansicht (Dark Mode) */
+    --theme: #0f172a;           /* Tiefes Navy-Blau als Hintergrund */
+    --entry: #1e293b;           /* Dunkleres Blau für Karten */
+    --primary: #60a5fa;         /* Hellblau für Titel (besserer Kontrast) */
+    --secondary: #93c5fd;       /* Sanftes Blau für Links */
+    --tertiary: #1e3a8a;        /* Dunkles Royalblau für Akzente */
+    --content: #e2e8f0;         /* Hellgrau für Text auf dunklem Grund */
+}
+
+/* Buttons in Blau anpassen */
+.button {
+    background: var(--primary) !important;
+    color: white !important;
+}
+
+.button:hover {
+    background: var(--secondary) !important;
+}
