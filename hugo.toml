@@ -14,8 +14,8 @@ theme = 'PaperMod'
 
     [params.profileMode]
         enabled = true
-        title = 'Noelle IT'
-        subtitle = 'Ihr Partner für effiziente Billbee-Automatisierung und reibungslose E-Commerce-Prozesse.'
+    title = "E-Commerce Automatisierung mit System"
+    subtitle = "Ich helfe Online-Händlern, ihre Billbee-Prozesse zu perfektionieren. Mehr Zeit für Ihr Business – weniger Stress mit der Technik."
         
         [[params.profileMode.buttons]]
             name = 'Leistungen ansehen'
@@ -39,3 +39,8 @@ theme = 'PaperMod'
         name = 'Impressum'
         url = '/impressum/'
         weight = 20
+        
+    [[menu.main]]
+    name = "Datenschutz"
+    url = "/datenschutz/"
+    weight = 30    
