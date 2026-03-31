@@ -44,3 +44,8 @@ theme = 'PaperMod'
     name = "Datenschutz"
     url = "/datenschutz/"
     weight = 30    
+    
+    [[menu.main]]
+    name = "AGB"
+    url = "/agb/"
+    weight = 40
