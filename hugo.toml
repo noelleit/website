@@ -4,19 +4,19 @@ title = 'Noelle IT'
 theme = 'PaperMod'
 
 [markup.goldmark.renderer]
-    unsafe = true # Ermöglicht das Einbinden des Impressum-Scripts
+    unsafe = true # Wichtig für das Impressum-Script
 
 [params]
     env = 'production'
-    defaultTheme = 'dark' # Zwingt die Seite in den edlen Dark Mode
+    defaultTheme = 'dark' # Zwingt die Seite in den Dark Mode
     description = 'Professionelle Billbee Einrichtung und Optimierung für Ihren E-Commerce'
     author = 'Jonas Nölle'
     ShowCodeCopyButtons = true
 
     [params.profileMode]
-    enabled = true
-    title = "E-Commerce Automatisierung mit System"
-    subtitle = """
+        enabled = true
+        title = "E-Commerce Automatisierung mit System"
+        subtitle = """
 Ich helfe Online-Händlern, ihre Billbee-Prozesse zu perfektionieren. **Mehr Zeit für Ihr Business – weniger Stress mit der Technik.**
 
 <div class="expertise-title" style="margin-top: 40px; text-align: center; font-size: 0.8rem; opacity: 0.6; text-transform: uppercase;">Schnittstellen & Expertise</div>
