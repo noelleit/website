@@ -1,0 +1,13 @@
+baseURL = 'https://DEIN_GITHUB_NUTZERNAME.github.io/'
+languageCode = 'de-de'
+title = 'Noelle IT | Automatisierung & Billbee Setup'
+theme = 'PaperMod'
+
+[params]
+    env = 'production'
+    title = 'Noelle IT'
+    description = 'Professionelle Billbee-Einrichtung & IT-Automatisierung'
+    author = 'Jonas'
+    showReadingTime = true
+    displayFullContent = false
+    ShowPostNavLinks = true
