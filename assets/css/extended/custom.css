@@ -1,35 +1,39 @@
+/* --- GLOBALE FARBEN --- */
 :root {
-    /* --- HELLER MODUS (Sanftes Business-Blau) --- */
-    --theme: #dbeafe;           /* Ein helles, freundliches Blau */
-    --entry: #ffffff;           /* Die Inhalts-Karten bleiben Weiß (besseres Lesen) */
-    --primary: #1e293b;         /* Fast schwarzes Dunkelblau für Überschriften */
-    --content: #000000;         /* Deine gewünschte schwarze Schrift */
-    --secondary: #2563eb;       /* Kräftiges Blau für Links */
-    --tertiary: #bfdbfe;        /* Akzent-Blau */
+    --theme: #dbeafe;           /* Dein gewünschtes Hellblau */
+    --primary: #000000;         /* Tiefschwarz für Titel */
+    --content: #000000;         /* Tiefschwarz für Texte */
+    --secondary: #1e4ed8;       /* Dunkleres Blau für Links */
+    --entry: #ffffff;           /* Karten-Hintergrund (z.B. im Impressum) */
 }
 
-.dark {
-    /* --- DUNKLER MODUS (Tiefes Navy-Blau) --- */
-    --theme: #172554;           /* Sehr dunkles Blau */
-    --entry: #1e293b;           /* Karten etwas heller abgehoben */
-    --primary: #ffffff;         /* Hier MUSS die Schrift Weiß sein, damit man sie sieht */
-    --content: #f1f5f9;         /* Ganz helles Grau/Blau für Fließtext */
-    --secondary: #60a5fa;       /* Hellblau für Links */
-    --tertiary: #1e3a8a;        /* Zwischen-Blau */
+/* Zwingt den Hintergrund auf JEDE Seite (auch Startseite) */
+html, body, .main, .profile_inner {
+    background-color: var(--theme) !important;
 }
 
-/* Die Buttons runden das Ganze ab */
-.button {
-    background: #2563eb !important;
-    color: white !important;
+/* --- STARTSEITE (Profile Mode) OPTIMIERUNG --- */
+
+/* Titel und Untertitel auf der Startseite schwarz machen */
+.profile_inner h1, 
+.profile_inner .profile_description,
+.profile_inner .profile_social_icons {
+    color: #000000 !important;
+}
+
+/* Die Buttons auf der Startseite schick machen */
+.profile_inner .buttons .button {
+    background: #2563eb !important; /* Kräftiges Blau für den Button */
+    color: #ffffff !important;      /* Weißer Text auf dem Button für Lesbarkeit */
     border-radius: 8px;
+    padding: 10px 20px;
 }
 
-.button:hover {
-    background: #1d4ed8 !important;
+.profile_inner .buttons .button:hover {
+    background: #1d4ed8 !important; /* Etwas dunkler beim Drüberfahren */
 }
 
-/* Der Hintergrund der Seite */
-body {
-    background-color: var(--theme);
+/* --- ALLGEMEINE TEXTE --- */
+p, li, h2, h3 {
+    color: #000000 !important;
 }
