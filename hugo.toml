@@ -19,3 +19,30 @@ theme = 'PaperMod'
     name = "Impressum"
     url = "/impressum/"
     weight = 10
+    
+[params.homeInfoParams]
+    Title = "Noelle IT"
+    Content = "Professionelle Unterstützung bei der Einrichtung und Optimierung von Billbee. Wir machen Ihren E-Commerce effizient."
+
+[[params.socialIcons]]
+    name = "email"
+    url = "mailto:deine-mail@noelle-it.com"
+
+[[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/dein-profil"
+
+[params.profileMode]
+    enabled = true
+    title = "Noelle IT"
+    subtitle = "Ihr Billbee Partner für reibungslose Prozesse."
+    imageUrl = "img/logo.png" # Falls du später ein Logo hast
+    imageTitle = "Noelle IT Logo"
+    
+    [[params.profileMode.buttons]]
+        name = "Leistungen ansehen"
+        url = "/leistungen"
+    [[params.profileMode.buttons]]
+        name = "Kontakt aufnehmen"
+        url = "mailto:deine-mail@noelle-it.com"    
+
