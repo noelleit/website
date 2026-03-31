@@ -52,17 +52,17 @@ Ich helfe Online-Händlern, ihre Billbee-Prozesse zu perfektionieren. **Mehr Zei
         url = '/leistungen/'
         weight = 10
 
-    [[menu.main]]
+    [[menu.footer]]
         name = "AGB"
         url = "/agb/"
         weight = 20
         
-    [[menu.main]]
+    [[menu.footer]]
         name = "Datenschutz"
         url = "/datenschutz/"
         weight = 30    
         
-    [[menu.main]]
+    [[menu.footer]]
         name = 'Impressum'
         url = '/impressum/'
         weight = 40

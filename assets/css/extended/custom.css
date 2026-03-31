@@ -80,4 +80,34 @@ body {
     transform: translateY(-2px);
 }
 
+/* Footer-Links nebeneinander anordnen */
+.footer {
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
 
+.footer span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Falls dein Theme das Footer-Menü nicht nativ rendert, 
+   erzwingen wir hier eine saubere horizontale Liste */
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.footer-nav a {
+    font-size: 0.8rem;
+    color: #6b7280 !important; /* Dezentes Grau */
+    transition: color 0.2s;
+}
+
+.footer-nav a:hover {
+    color: #60a5fa !important; /* Blau beim Hover */
+}
