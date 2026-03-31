@@ -8,14 +8,32 @@ theme = 'PaperMod'
 
 [params]
     env = 'production'
+    defaultTheme = 'dark' # Zwingt die Seite in den edlen Dark Mode
     description = 'Professionelle Billbee Einrichtung und Optimierung für Ihren E-Commerce'
     author = 'Jonas Nölle'
     ShowCodeCopyButtons = true
 
     [params.profileMode]
         enabled = true
-    title = "E-Commerce Automatisierung mit System"
-    subtitle = "Ich helfe Online-Händlern, ihre Billbee-Prozesse zu perfektionieren. Mehr Zeit für Ihr Business – weniger Stress mit der Technik."
+        title = "Noelle IT"
+        # Der Subtitle muss DIREKT hier unter dem Titel stehen:
+        subtitle = """
+Ihr Partner für effiziente Billbee-Automatisierung und reibungslose E-Commerce-Prozesse.
+
+<div class="expertise-title" style="margin-top: 40px; text-align: center; font-size: 0.8rem; opacity: 0.6; text-transform: uppercase;">Schnittstellen & Expertise</div>
+<div class="badge-container">
+    <span class="badge">Billbee Partner</span>
+    <span class="badge">Shopify</span>
+    <span class="badge">Amazon</span>
+    <span class="badge">Etsy</span>
+    <span class="badge">eBay</span>
+    <span class="badge">WooCommerce</span>
+    <span class="badge">lexoffice</span>
+    <span class="badge">PayJoe</span>
+    <span class="badge">Paperless-ngx</span>
+    <span class="badge">IT-Recht Kanzlei</span>
+</div>
+"""
         
         [[params.profileMode.buttons]]
             name = 'Leistungen ansehen'
@@ -36,16 +54,16 @@ theme = 'PaperMod'
         weight = 10
 
     [[menu.main]]
-        name = 'Impressum'
-        url = '/impressum/'
+        name = "AGB"
+        url = "/agb/"
         weight = 20
         
     [[menu.main]]
-    name = "Datenschutz"
-    url = "/datenschutz/"
-    weight = 30    
-    
+        name = "Datenschutz"
+        url = "/datenschutz/"
+        weight = 30    
+        
     [[menu.main]]
-    name = "AGB"
-    url = "/agb/"
-    weight = 40
+        name = 'Impressum'
+        url = '/impressum/'
+        weight = 40
