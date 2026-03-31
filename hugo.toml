@@ -4,21 +4,22 @@ title = 'Noelle IT'
 theme = 'PaperMod'
 
 [markup.goldmark.renderer]
-    unsafe = true # Erlaubt das Impressum-Script der IT-Recht-Kanzlei
+    unsafe = true # Ermöglicht das Einbinden des Impressum-Scripts
 
 [params]
     env = 'production'
-    description = 'Professionelle Billbee Einrichtung und Optimierung'
+    description = 'Professionelle Billbee Einrichtung und Optimierung für Ihren E-Commerce'
     author = 'Jonas Nölle'
+    ShowCodeCopyButtons = true
 
     [params.profileMode]
         enabled = true
         title = 'Noelle IT'
-        subtitle = 'Ihr Billbee Partner für reibungslose E-Commerce-Prozesse.'
+        subtitle = 'Ihr Partner für effiziente Billbee-Automatisierung und reibungslose E-Commerce-Prozesse.'
         
         [[params.profileMode.buttons]]
             name = 'Leistungen ansehen'
-            url = '/leistungen'
+            url = '/leistungen/'
 
         [[params.profileMode.buttons]]
             name = 'Kontakt aufnehmen'
