@@ -3,46 +3,54 @@ title: "Leistungsübersicht"
 disableShare: true
 ---
 
-## Paket 1: Basis-Setup
-**Der schnelle Start in die Automatisierung – ideal für Kleinunternehmer.**
+# Maßgeschneiderte Billbee-Lösungen
 
-* **Anbindung:** Verknüpfung Ihres Haupt-Shops (Etsy, Shopify, Amazon etc.) mit Billbee.
-* **Rechnungsdesign:** Erstellung eines professionellen Layouts mit Ihrem Logo und Ihren Firmendaten.
-* **Automatischer Versand:** Konfiguration des vollautomatischen Rechnungsversands per E-Mail nach Zahlungseingang.
-* **Rechtssicherheit:** Hinterlegung von AGB und Widerrufsbelehrungen in den E-Mail-Workflows.
+Holen Sie das Maximum aus Ihrem E-Commerce heraus. Ich unterstütze Sie dabei, Ihre Prozesse zu automatisieren, damit Sie sich wieder auf Ihr Kerngeschäft konzentrieren können.
+
+---
+
+## 🚀 Paket 1: Basis-Setup
+**Der perfekte Start in die Automatisierung – ideal für Kleinunternehmer.**
+
+* **Nahtlose Anbindung:** Komplette Verknüpfung Ihres Haupt-Shops (Etsy, Shopify, Amazon etc.) mit Billbee.
+* **Professionelles Auftreten:** Erstellung eines individuellen Rechnungsdesigns mit Ihrem Logo und CI.
+* **Zeitersparnis:** Konfiguration des vollautomatischen Rechnungsversands per E-Mail nach Zahlungseingang.
+* **Rechtssicherheit:** Korrekte Hinterlegung von AGB und Widerrufsbelehrungen in Ihren E-Mail-Workflows.
 
 **Festpreis: 190€ zzgl. MwSt.**
 
 ---
 
-## Paket 2: Profi-Integration
-**Die Komplettlösung für wachsende Händler mit Versand- und Buchhaltungsfokus.**
-*Paket 1 zzgl. folgendem:*
+## ⚙️ Paket 2: Profi-Integration
+**Die Komplettlösung für wachsende Händler mit Fokus auf Skalierung.**
+*Beinhaltet alle Leistungen aus Paket 1 zzgl.:*
 
-* **Multi-Channel:** Anbindung von bis zu 3 Verkaufsquellen gleichzeitig.
-* **Versand:** Vollständige Einrichtung der Versand-Schnittstellen (DHL, Post, Hermes, DPD etc.) inkl. automatischem Labeldruck.
-* **Buchhaltung:** Konfiguration der Schnittstelle zu lexoffice, sevDesk oder für den DATEV-Export.
-* **Lagerabgleich:** Aktivierung der automatischen Bestandssynchronisierung über alle Kanäle hinweg.
+* **Multi-Channel Power:** Anbindung von bis zu 3 Verkaufsquellen gleichzeitig.
+* **Versand-Automatisierung:** Einrichtung Ihrer Versand-Schnittstellen (DHL, Post, DPD etc.) inkl. automatischem Labeldruck.
+* **Buchhaltungs-Workflow:** Direkte Anbindung an lexoffice, sevDesk oder Vorbereitung für den DATEV-Export.
+* **Bestandskontrolle:** Aktivierung des automatischen Lagerabgleichs über alle Kanäle hinweg.
 
 **Festpreis: 390€ zzgl. MwSt.**
 
 ---
 
-## Individuelle Leistungen & Support
-**Maßgeschneiderte Lösungen für spezielle Anforderungen.**
+## 🛠️ Individuelle Leistungen & Support
+**Exzellente Unterstützung für Ihre speziellen Anforderungen.**
 
-Für Aufgaben, die über die Standard-Pakete hinausgehen, unterstütze ich Sie auf Stundenbasis:
+Für komplexe Projekte oder punktuelle Hilfe unterstütze ich Sie flexibel auf Stundenbasis:
 
-* Erstellung komplexer Automatisierungs-Regeln.
-* Einrichtung von Stücklisten und Sets für eine saubere Lagerführung.
-* Individuelle Schulungen zur Bedienung des Systems.
-* Fehlersuche und Optimierung bestehender Accounts.
+* **Automatisierung:** Erstellung individueller Regeln für komplexe Workflows.
+* **Lager-Struktur:** Einrichtung von Stücklisten und Sets für eine saubere Bestandsführung.
+* **Exklusiv-Training:** Individuelle Schulungen für Sie und Ihr Team.
+* **Check-up:** Analyse und Optimierung Ihres bestehenden Accounts auf Fehlerquellen.
 
 **Stundensatz: 75€ zzgl. MwSt.**
 
 ---
 
-### Kontakt
+### Jetzt unverbindlich anfragen
+Haben Sie Fragen zu den Paketen oder benötigen Sie eine individuelle Lösung? Schreiben Sie mir einfach eine Nachricht.
+
 **Jonas Nölle**
 📧 [anfrage@noelle-it.com](mailto:anfrage@noelle-it.com)
 📍 Ernst-Barlach-Str. 5, 45768 Marl
