@@ -14,11 +14,10 @@ theme = 'PaperMod'
     ShowCodeCopyButtons = true
 
     [params.profileMode]
-        enabled = true
-        title = "Noelle IT"
-        # Der Subtitle muss DIREKT hier unter dem Titel stehen:
-        subtitle = """
-Ihr Partner für effiziente Billbee-Automatisierung und reibungslose E-Commerce-Prozesse.
+    enabled = true
+    title = "E-Commerce Automatisierung mit System"
+    subtitle = """
+Ich helfe Online-Händlern, ihre Billbee-Prozesse zu perfektionieren. **Mehr Zeit für Ihr Business – weniger Stress mit der Technik.**
 
 <div class="expertise-title" style="margin-top: 40px; text-align: center; font-size: 0.8rem; opacity: 0.6; text-transform: uppercase;">Schnittstellen & Expertise</div>
 <div class="badge-container">
