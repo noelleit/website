@@ -11,3 +11,11 @@ theme = 'PaperMod'
     showReadingTime = true
     displayFullContent = false
     ShowPostNavLinks = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[menu.main]]
+    name = "Impressum"
+    url = "/impressum/"
+    weight = 10
