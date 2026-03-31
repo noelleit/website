@@ -4,11 +4,14 @@ title = 'Noelle IT'
 theme = 'PaperMod'
 
 [markup.goldmark.renderer]
-    unsafe = true # Wichtig für das Impressum-Script
+    unsafe = true 
 
 [params]
     env = 'production'
-    defaultTheme = 'dark' # Zwingt die Seite in den Dark Mode
+    # 'auto' erlaubt dem User das Umschalten, startet aber im Dark Mode
+    defaultTheme = 'dark'
+    showThemeToggleButton = true 
+    
     description = 'Professionelle Billbee Einrichtung und Optimierung für Ihren E-Commerce'
     author = 'Jonas Nölle'
     ShowCodeCopyButtons = true
@@ -16,21 +19,24 @@ theme = 'PaperMod'
     [params.profileMode]
         enabled = true
         title = "E-Commerce Automatisierung mit System"
+        # Wir lassen die Tags im Subtitle, ordnen sie aber im CSS besser zu
         subtitle = """
 Ich helfe Online-Händlern, ihre Billbee-Prozesse zu perfektionieren. **Mehr Zeit für Ihr Business – weniger Stress mit der Technik.**
 
-<div class="expertise-title" style="margin-top: 40px; text-align: center; font-size: 0.8rem; opacity: 0.6; text-transform: uppercase;">Schnittstellen & Expertise</div>
-<div class="badge-container">
-    <span class="badge">Billbee</span>
-    <span class="badge">Shopify</span>
-    <span class="badge">Amazon</span>
-    <span class="badge">Etsy</span>
-    <span class="badge">eBay</span>
-    <span class="badge">WooCommerce</span>
-    <span class="badge">lexoffice</span>
-    <span class="badge">PayJoe</span>
-    <span class="badge">Paperless-ngx</span>
-    <span class="badge">IT-Recht Kanzlei</span>
+<div class="expertise-wrapper">
+    <div class="expertise-title">Schnittstellen & Expertise</div>
+    <div class="badge-container">
+        <span class="badge">Billbee</span>
+        <span class="badge">Shopify</span>
+        <span class="badge">Amazon</span>
+        <span class="badge">Etsy</span>
+        <span class="badge">eBay</span>
+        <span class="badge">WooCommerce</span>
+        <span class="badge">lexoffice</span>
+        <span class="badge">PayJoe</span>
+        <span class="badge">Paperless-ngx</span>
+        <span class="badge">IT-Recht Kanzlei</span>
+    </div>
 </div>
 """
         

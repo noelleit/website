@@ -1,33 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
+/* Wir nutzen Variablen, die sich beim Theme-Wechsel anpassen könnten */
 :root {
     --gradient-start: #0f172a; 
     --gradient-end: #1e3a8a;   
-    --primary: #ffffff;
-    --content: #f1f5f9;
+}
+
+/* Nur im Dark-Mode (oder als Standard) den Blau-Verlauf */
+.dark {
+    --nav-bg: transparent;
 }
 
 body {
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(160deg, var(--gradient-start) 0%, var(--gradient-end) 100%) !important;
-    background-attachment: fixed !important;
-    color: white !important;
+    /* !important entfernt, damit PaperMod Styles greifen können */
+    background: linear-gradient(160deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
-/* --- SORTIERUNG DER ELEMENTE --- */
+/* --- REIHENFOLGE-FIX --- */
 .profile_inner {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 24px;
     padding: 40px !important;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
+/* 1. Titel */
 .profile_inner h1 {
-    order: 1; /* Titel */
+    order: 1;
     font-weight: 800;
     font-size: 3rem !important;
     background: linear-gradient(to right, #60a5fa, #ffffff);
@@ -35,76 +41,78 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.profile_inner .profile_description {
-    order: 2; /* Slogan */
+/* 2. Der Slogan-Text innerhalb der Description */
+.profile_description {
+    order: 2;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
+/* 3. Die Buttons-Gruppe */
 .profile_inner .buttons {
-    order: 3; /* Buttons in die Mitte */
-    margin: 25px 0 !important;
+    order: 3;
+    margin: 30px 0 !important;
+    display: flex;
+    gap: 15px;
 }
 
-.expertise-title, .badge-container {
-    order: 4; /* Tags nach unten */
+/* 4. Die Expertise-Wrapper (Badges) */
+.expertise-wrapper {
+    order: 4;
+    margin-top: 20px;
 }
 
-/* --- BUTTONS --- */
-.button {
-    background: #2563eb !important;
-    padding: 12px 28px !important;
-    border-radius: 12px !important;
-    font-weight: 700 !important;
-    transition: all 0.3s ease !important;
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+/* --- STYLING ELEMENTE --- */
+.expertise-title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
-.button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.4);
-    background: #3b82f6 !important;
-}
-
-/* --- BADGES / TAGS --- */
 .badge-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 10px;
     justify-content: center;
 }
 
 .badge {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.15);
     color: #60a5fa;
-    padding: 6px 16px;
+    padding: 5px 14px;
     border-radius: 50px;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-weight: 600;
 }
 
-/* --- FOOTER --- */
+.button {
+    background: #2563eb !important;
+    padding: 10px 24px !important;
+    border-radius: 10px !important;
+    color: white !important;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+/* Footer-Fix */
 .footer {
-    padding: 40px 0;
-    text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    padding: 30px 0;
 }
 
 .footer-nav {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
     margin-top: 10px;
-}
-
-.footer-nav a {
-    font-size: 0.8rem;
-    color: #6b7280 !important;
-    transition: color 0.2s;
-}
-
-.footer-nav a:hover {
-    color: #60a5fa !important;
 }
