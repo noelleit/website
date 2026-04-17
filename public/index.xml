@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Noelle IT | Billbee Setup &amp; Automatisierung on Noelle IT | Automatisierung &amp; Billbee Setup</title>
+    <title>Noelle IT | Billbee Setup &amp; Automatisierung on Noelle IT</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Noelle IT | Billbee Setup &amp; Automatisierung on Noelle IT | Automatisierung &amp; Billbee Setup</description>
+    <description>Recent content in Noelle IT | Billbee Setup &amp; Automatisierung on Noelle IT</description>
     <generator>Hugo</generator>
     <language>de-de</language>
     <lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate>
@@ -38,12 +38,46 @@
 &lt;/table&gt;</description>
     </item>
     <item>
+      <title>Allgemeine Geschäftsbedingungen</title>
+      <link>http://localhost:1313/agb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/agb/</guid>
+      <description>&lt;div class=&#34;itrk-legaltext&#34; data-itrk-legaltext-url=&#34;https://itrk.legal/bE5.2Y.czg-iframe.html&#34;&gt;&lt;/div&gt;
+&lt;script src=&#34;https://www.it-recht-kanzlei.de/js/itrk-legaltext.js&#34; async defer&gt;&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>Datenschutzerklärung</title>
+      <link>http://localhost:1313/datenschutz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/datenschutz/</guid>
+      <description>&lt;div class=&#34;itrk-legaltext&#34; data-itrk-legaltext-url=&#34;https://itrk.legal/bE5.8U.czg-iframe.html&#34;&gt;&lt;/div&gt;
+&lt;script src=&#34;https://www.it-recht-kanzlei.de/js/itrk-legaltext.js&#34; async defer&gt;&lt;/script&gt;</description>
+    </item>
+    <item>
       <title>Impressum</title>
       <link>http://localhost:1313/impressum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/impressum/</guid>
       <description>&lt;div class=&#34;itrk-legaltext&#34; data-itrk-legaltext-url=&#34;https://itrk.legal/bE5.0.czg-de-iframe.html&#34;&gt;&lt;/div&gt;
 &lt;script src=&#34;https://www.it-recht-kanzlei.de/js/itrk-legaltext.js&#34;&gt;&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>Leistungsübersicht</title>
+      <link>http://localhost:1313/leistungen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/leistungen/</guid>
+      <description>&lt;h1 id=&#34;maßgeschneiderte-billbee-lösungen&#34;&gt;Maßgeschneiderte Billbee-Lösungen&lt;/h1&gt;
+&lt;p&gt;Holen Sie das Maximum aus Ihrem E-Commerce heraus. Ich unterstütze Sie dabei, Ihre Prozesse zu automatisieren, damit Sie sich wieder auf Ihr Kerngeschäft konzentrieren können.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-paket-1-basis-setup&#34;&gt;🚀 Paket 1: Basis-Setup&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Der perfekte Start in die Automatisierung – ideal für Kleinunternehmer.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nahtlose Anbindung:&lt;/strong&gt; Komplette Verknüpfung Ihres Haupt-Shops (Etsy, Shopify, Amazon etc.) mit Billbee.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Professionelles Auftreten:&lt;/strong&gt; Erstellung eines individuellen Rechnungsdesigns mit Ihrem Logo und CI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zeitersparnis:&lt;/strong&gt; Konfiguration des vollautomatischen Rechnungsversands per E-Mail nach Zahlungseingang.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rechtssicherheit:&lt;/strong&gt; Korrekte Hinterlegung von AGB und Widerrufsbelehrungen in Ihren E-Mail-Workflows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Festpreis: 190€ zzgl. MwSt.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,44 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
-/* Wir nutzen Variablen, die sich beim Theme-Wechsel anpassen könnten */
-:root {
-    --gradient-start: #0f172a; 
-    --gradient-end: #1e3a8a;   
-}
-
-/* Nur im Dark-Mode (oder als Standard) den Blau-Verlauf */
-.dark {
-    --nav-bg: transparent;
-}
-
 body {
     font-family: 'Inter', sans-serif;
-    /* !important entfernt, damit PaperMod Styles greifen können */
-    background: linear-gradient(160deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
-    background-attachment: fixed;
-    min-height: 100vh;
+    /* Der feste blaue Hintergrund ist entfernt, 
+       damit das seriöse Weiß von PaperMod wirkt */
 }
 
-/* --- REIHENFOLGE-FIX --- */
+/* --- REIHENFOLGE & LAYOUT --- */
 .profile_inner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* Modernes, helles Karten-Design mit sehr dezentem Schatten */
+    background: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 24px;
     padding: 40px !important;
 }
 
-/* 1. Titel */
+/* 1. Titel (Farbverlauf entfernt, jetzt sattes Dunkelgrau!) */
 .profile_inner h1 {
     order: 1;
     font-weight: 800;
     font-size: 3rem !important;
-    background: linear-gradient(to right, #60a5fa, #ffffff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    -webkit-text-fill-color: initial !important;
+    color: #1e293b !important; /* Seriöses Dunkelgrau/Schieferblau */
 }
 
 /* 2. Der Slogan-Text innerhalb der Description */
@@ -47,6 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #475569; /* Etwas weicher als reines Schwarz für besseres Lesen */
 }
 
 /* 3. Die Buttons-Gruppe */
@@ -68,7 +58,7 @@ body {
     margin-top: 20px;
     text-align: center;
     font-size: 0.8rem;
-    opacity: 0.6;
+    color: #64748b;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -82,9 +72,10 @@ body {
 }
 
 .badge {
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    color: #60a5fa;
+    /* Helle Badges, die professionell wirken */
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    color: #2563eb;
     padding: 5px 14px;
     border-radius: 50px;
     font-size: 0.8rem;
@@ -101,11 +92,12 @@ body {
 
 .button:hover {
     transform: translateY(-2px);
+    background: #1d4ed8 !important; /* Etwas dunkler beim Hover */
 }
 
 /* Footer-Fix */
 .footer {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.08); /* Rand für helles Theme angepasst */
     margin-top: 50px;
     padding: 30px 0;
 }

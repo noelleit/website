@@ -1,0 +1,73 @@
+baseURL = 'https://noelle-it.com/'
+languageCode = 'de-de'
+title = 'Noelle IT'
+theme = 'PaperMod'
+
+[markup.goldmark.renderer]
+    unsafe = true 
+
+[params]
+    env = 'production'
+    # Fester Light Mode für ein seriöses B2B-Auftreten
+    defaultTheme = 'light'
+    showThemeToggleButton = false 
+    
+    description = 'Professionelle Billbee Einrichtung und Optimierung für Ihren E-Commerce'
+    author = 'Jonas Nölle'
+    ShowCodeCopyButtons = true
+
+    [params.profileMode]
+        enabled = true
+        title = "E-Commerce Automatisierung mit System"
+        subtitle = """
+Ich helfe Online-Händlern, ihre Billbee-Prozesse zu perfektionieren. **Mehr Zeit für Ihr Business – weniger Stress mit der Technik.**
+
+<div class="expertise-wrapper">
+    <div class="expertise-title">Schnittstellen & Expertise</div>
+    <div class="badge-container">
+        <span class="badge">Billbee</span>
+        <span class="badge">Shopify</span>
+        <span class="badge">Amazon</span>
+        <span class="badge">Etsy</span>
+        <span class="badge">eBay</span>
+        <span class="badge">WooCommerce</span>
+        <span class="badge">lexoffice</span>
+        <span class="badge">PayJoe</span>
+        <span class="badge">Paperless-ngx</span>
+        <span class="badge">IT-Recht Kanzlei</span>
+    </div>
+</div>
+"""
+        
+        [[params.profileMode.buttons]]
+            name = 'Leistungen ansehen'
+            url = '/leistungen/'
+
+        [[params.profileMode.buttons]]
+            name = 'Kontakt aufnehmen'
+            url = 'mailto:anfrage@noelle-it.com'
+
+    [[params.socialIcons]]
+        name = 'email'
+        url = 'mailto:anfrage@noelle-it.com'
+
+[menu]
+    [[menu.main]]
+        name = 'Leistungen'
+        url = '/leistungen/'
+        weight = 10
+
+    [[menu.footer]]
+        name = "AGB"
+        url = "/agb/"
+        weight = 20
+        
+    [[menu.footer]]
+        name = "Datenschutz"
+        url = "/datenschutz/"
+        weight = 30    
+        
+    [[menu.footer]]
+        name = 'Impressum'
+        url = '/impressum/'
+        weight = 40
